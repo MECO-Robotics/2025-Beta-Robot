@@ -66,6 +66,8 @@ public class SwerveSubsystem extends SubsystemBase
   /**
    * AprilTag field layout.
    */
+   public double maximumSpeed = Units.feetToMeters(16.5);
+
   private final AprilTagFieldLayout aprilTagFieldLayout = AprilTagFieldLayout.loadField(AprilTagFields.k2024Crescendo);
   /**
    * Enable vision odometry updates while driving.
